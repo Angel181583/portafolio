@@ -1,0 +1,55 @@
+/* Estilo para el primer rectángulo */
+.rectangulo1 {
+    display: inline-block; 
+    border: 2px solid #333; 
+    border-radius: 20px; 
+    padding: 10px; 
+    margin: 10px; 
+    text-align: center; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 18px; 
+    color: #333; 
+    background-color: #ffc107;
+}
+
+/* Estilo para el segundo rectángulo al pasar el mouse */
+.rectangulo2 {
+    display: inline-block; 
+    border: 2px solid #333; 
+    border-radius: 20px; 
+    padding: 10px; 
+    margin: 10px; 
+    text-align: center; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 18px; 
+    color: #fff; 
+    background-color: #2196F3; 
+    transition: background-color 0.3s ease; 
+}
+
+/* Estilo para el segundo rectángulo al pasar el mouse */
+.rectangulo2:hover {
+    background-color: #ff9800;
+    border-radius: 50%;
+    transform: rotate(5deg); 
+}
+
+/* Estilo para el tercer rectángulo al hacer clic */
+.rectangulo3 {
+    display: inline-block; 
+    border: 2px solid #333; 
+    border-radius: 20px;
+    padding: 10px; 
+    margin: 10px; 
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    color: #333; 
+    background-color: #4CAF50; 
+}
+
+/* Estilo para el tercer rectángulo al hacer clic */
+.rectangulo3:active {
+    background-color: #ff5722; /* Color de relleno diferente */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de la caja */
+}
