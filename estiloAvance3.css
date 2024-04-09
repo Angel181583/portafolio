@@ -1,0 +1,154 @@
+.title{
+	background-color: black;
+	font-style: italic;
+	align-content: center;
+	color: white;
+    font-size: 22px;
+}
+.subtitle{
+	background-color: rgb(32, 45, 112);
+	font-size: 20px;
+	height: 50px;
+    color: white;
+	font-family: arial;
+}
+.subtitle2{
+    background-color: rgb(117, 106, 201);
+    font-size: 20px;
+    height: 80px;
+    font-family: arial;
+    flex: 1;
+    width: 60%;
+    margin-left: 700px;
+    position: absolute;
+    top: 800px;
+}
+.subtitle3{
+    background-color: rgb(99, 61, 163);
+    font-size: 20px;
+    height: 80px;
+    font-family: arial;
+    flex: 1;
+    width: 35%;
+    margin-left: 40px;
+    position: absolute;
+    bottom: -400px;
+}
+.par1{
+    background-color: white;
+    padding: 5px 10px;
+    width: auto;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.content {
+    background-color: white;
+    justify-content: space-between;
+    flex: 4;
+
+}
+.imagen2 {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    margin-top: 150px; /* Espacio superior entre la imagen y el contenido */
+}
+
+.imagen2 img {
+    width: 300px; /* Ancho de la imagen */
+    height: 150px;/* Altura automática para mantener la proporción */
+}
+.imagen {
+    position: absolute;
+    top: 0;
+    right: 600px;
+    margin-top: 450px; /* Espacio superior entre la imagen y el contenido */
+}
+
+.imagen img {
+    width: 500px; /* Ancho de la imagen */
+    height: 300px;/* Altura automática para mantener la proporción */
+}
+.container {
+    max-width: 600px;
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(72, 93, 194);
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 400px;
+}
+.container1 {
+    max-width: 50px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #633da3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2 {
+    max-width: 50px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #996EE3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content1 {
+    background-color: white;
+    justify-content: space-between;
+    flex: 2;
+    position: absolute;
+    top: 900px;
+    right: 100px;
+}
+.content2 {
+    background-color: white;
+    justify-content: space-between;
+    flex: 2;
+    position: absolute;
+    bottom: -960px;
+    left: 40px;
+    margin-bottom: 30px;
+}
+ul{
+    width: 1000px;
+}
+.vision {
+    margin-bottom: 30px;
+}
+h2 {
+    text-align: center;
+}
+
+ol {
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-family: arial;
+}
+
+mark {
+    background-color: #ffff00;
+    padding: 2px 4px;
+    font-weight: bold;
+}
+body{
+    background-color:rgb(29, 32, 43);
+
+}
+.map-container {
+    position: absolute;
+    right: 200px;
+    bottom: -800px;
+}
+
+.map-container img {
+    width: 600px;
+    height: 300px;
+}
